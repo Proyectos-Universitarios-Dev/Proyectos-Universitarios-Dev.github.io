@@ -11314,3 +11314,18 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+.image-container {
+  width: 150px; /* Ajusta el tamaño del contenedor */
+  height: 150px; /* Ajusta el tamaño del contenedor */
+  border-radius: 50%; /* Hace el contenedor circular */
+  overflow: hidden; /* Asegura que la imagen no se salga del contenedor */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%; /* Escala la imagen para llenar el contenedor */
+  height: 100%; /* Escala la imagen para llenar el contenedor */
+  object-fit: cover; /* Recorta la imagen para ajustarse al contenedor */
+}
